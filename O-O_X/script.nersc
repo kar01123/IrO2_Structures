@@ -1,0 +1,15 @@
+#!/bin/sh
+
+# example script on NERSC edison (N.B.: 24 cores per node!)
+#
+# argument of SBATCH -N is the number of MPI ranks (argument of srun -n) divided by 24...
+#
+#SBATCH -p regular
+#SBATCH -N 1
+#SBATCH -t 10:00:00
+#SBATCH -J H_cus
+#SBATCH -C haswell
+
+module load vasp
+
+srun -n 32 vasp_std
