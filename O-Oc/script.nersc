@@ -1,0 +1,17 @@
+#!/bin/bash -l
+#SBATCH -J MnO2F       # Job Name
+#SBATCH -o job.o    # Output and error file name (%j expands to jobID)
+#SBATCH -e job.e
+#SBATCH -p regular       # Queue (partition) name -- normal, development, etc.
+#SBATCH -t 10:00:00     # Run time (hh:mm:ss) - 1.5 hours
+#SBATCH --nodes=2
+#SBATCH -C knl
+#SBATCH -L SCRATCH
+
+##Load vasp
+module load vasp/20181030-knl
+
+export OMP_NUM_THREADS=4
+
+srun -n128 -c4 --cpu_bind=cores vasp_std
+

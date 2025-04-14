@@ -1,0 +1,749 @@
+ running on   32 total cores
+ distrk:  each k-point on   32 cores,    1 groups
+ distr:  one band on    1 cores,   32 groups
+ using from now: INCAR     
+ vasp.5.4.4.18Apr17-6-g9f103f2a35 (build Jul 24 2019 14:16:20) complex          
+  
+ POSCAR found type information on POSCAR  Ir O 
+ POSCAR found :  2 types and      50 ions
+ scaLAPACK is switched off
+
+ ----------------------------------------------------------------------------- 
+|                                                                             |
+|           W    W    AA    RRRRR   N    N  II  N    N   GGGG   !!!           |
+|           W    W   A  A   R    R  NN   N  II  NN   N  G    G  !!!           |
+|           W    W  A    A  R    R  N N  N  II  N N  N  G       !!!           |
+|           W WW W  AAAAAA  RRRRR   N  N N  II  N  N N  G  GGG   !            |
+|           WW  WW  A    A  R   R   N   NN  II  N   NN  G    G                |
+|           W    W  A    A  R    R  N    N  II  N    N   GGGG   !!!           |
+|                                                                             |
+|      For optimal performance we recommend to set                            |
+|        NCORE= 4 - approx SQRT( number of cores)                             |
+|      NCORE specifies how many cores store one orbital (NPAR=cpu/NCORE).     |
+|      This setting can  greatly improve the performance of VASP for DFT.     |
+|      The default,   NCORE=1            might be grossly inefficient         |
+|      on modern multi-core architectures or massively parallel machines.     |
+|      Do your own testing !!!!                                               |
+|      Unfortunately you need to use the default for GW and RPA calculations. |
+|      (for HF NCORE is supported but not extensively tested yet)             |
+|                                                                             |
+ ----------------------------------------------------------------------------- 
+
+ LDA part: xc-table for Pade appr. of Perdew
+ POSCAR, INCAR and KPOINTS ok, starting setup
+ FFT: planning ...
+ WAVECAR not read
+ entering main loop
+       N       E                     dE             d eps       ncg     rms          rms(c)
+*** Error in `/global/common/sw/cray/cnl7/haswell/vasp/5.4.4/intel/18.0.1.163/w5vq7o2/bin/vasp_std': corrupted size vs. prev_size: 0x000001000a533b00 ***
+*** Error in `/global/common/sw/cray/cnl7/haswell/vasp/5.4.4/intel/18.0.1.163/w5vq7o2/bin/vasp_std': corrupted size vs. prev_size: 0x000001000a531f20 ***
+*** Error in `/global/common/sw/cray/cnl7/haswell/vasp/5.4.4/intel/18.0.1.163/w5vq7o2/bin/vasp_std': free(): invalid next size (normal): 0x000001000a52f600 ***
+*** Error in `/global/common/sw/cray/cnl7/haswell/vasp/5.4.4/intel/18.0.1.163/w5vq7o2/bin/vasp_std': corrupted size vs. prev_size: 0x000001000a528e70 ***
+*** Error in `/global/common/sw/cray/cnl7/haswell/vasp/5.4.4/intel/18.0.1.163/w5vq7o2/bin/vasp_std': corrupted size vs. prev_size: 0x000001000aa33f70 ***
+forrtl: error (76): Abort trap signal
+Image              PC                Routine            Line        Source             
+vasp_std           000000002732C28E  Unknown               Unknown  Unknown
+vasp_std           0000000025C6BD40  Unknown               Unknown  Unknown
+vasp_std           00000000273035A0  Unknown               Unknown  Unknown
+vasp_std           00000000273FE671  Unknown               Unknown  Unknown
+vasp_std           0000000027424B47  Unknown               Unknown  Unknown
+vasp_std           000000002742AF73  Unknown               Unknown  Unknown
+vasp_std           000000002742E87A  Unknown               Unknown  Unknown
+vasp_std           000000002742FD02  Unknown               Unknown  Unknown
+vasp_std           00000000217F0EAA  Unknown               Unknown  Unknown
+vasp_std           00000000217F0241  Unknown               Unknown  Unknown
+vasp_std           0000000024AFE31C  Unknown               Unknown  Unknown
+vasp_std           0000000024AE1B05  Unknown               Unknown  Unknown
+vasp_std           0000000021897B0E  Unknown               Unknown  Unknown
+vasp_std           00000000212ECCAA  Unknown               Unknown  Unknown
+vasp_std           0000000021152453  Unknown               Unknown  Unknown
+vasp_std           00000000209D86F0  Unknown               Unknown  Unknown
+vasp_std           0000000020A3F0BA  Unknown               Unknown  Unknown
+vasp_std           000000002113C204  Unknown               Unknown  Unknown
+vasp_std           000000002111766B  Unknown               Unknown  Unknown
+vasp_std           0000000020009632  Unknown               Unknown  Unknown
+vasp_std           00000000273F4E0F  Unknown               Unknown  Unknown
+vasp_std           000000002000951A  Unknown               Unknown  Unknown
+forrtl: error (76): Abort trap signal
+Image              PC                Routine            Line        Source             
+vasp_std           000000002732C28E  Unknown               Unknown  Unknown
+vasp_std           0000000025C6BD40  Unknown               Unknown  Unknown
+vasp_std           00000000273035A0  Unknown               Unknown  Unknown
+vasp_std           00000000273FE671  Unknown               Unknown  Unknown
+vasp_std           0000000027424B47  Unknown               Unknown  Unknown
+vasp_std           000000002742AF73  Unknown               Unknown  Unknown
+vasp_std           000000002742E87A  Unknown               Unknown  Unknown
+vasp_std           000000002742FD02  Unknown               Unknown  Unknown
+vasp_std           00000000217F0EAA  Unknown               Unknown  Unknown
+vasp_std           00000000217F0241  Unknown               Unknown  Unknown
+vasp_std           0000000024AFE31C  Unknown               Unknown  Unknown
+vasp_std           0000000024AE1B05  Unknown               Unknown  Unknown
+vasp_std           0000000021897B0E  Unknown               Unknown  Unknown
+vasp_std           00000000212ECCAA  Unknown               Unknown  Unknown
+vasp_std           0000000021152453  Unknown               Unknown  Unknown
+vasp_std           00000000209D86F0  Unknown               Unknown  Unknown
+vasp_std           0000000020A3F0BA  Unknown               Unknown  Unknown
+vasp_std           000000002113C204  Unknown               Unknown  Unknown
+vasp_std           000000002111766B  Unknown               Unknown  Unknown
+vasp_std           0000000020009632  Unknown               Unknown  Unknown
+vasp_std           00000000273F4E0F  Unknown               Unknown  Unknown
+vasp_std           000000002000951A  Unknown               Unknown  Unknown
+forrtl: error (76): Abort trap signal
+Image              PC                Routine            Line        Source             
+vasp_std           000000002732C28E  Unknown               Unknown  Unknown
+vasp_std           0000000025C6BD40  Unknown               Unknown  Unknown
+vasp_std           00000000273035A0  Unknown               Unknown  Unknown
+vasp_std           00000000273FE671  Unknown               Unknown  Unknown
+vasp_std           0000000027424B47  Unknown               Unknown  Unknown
+vasp_std           000000002742AF73  Unknown               Unknown  Unknown
+vasp_std           000000002742C821  Unknown               Unknown  Unknown
+vasp_std           00000000217F2D73  Unknown               Unknown  Unknown
+vasp_std           00000000217F1FE0  Unknown               Unknown  Unknown
+vasp_std           000000002115281A  Unknown               Unknown  Unknown
+vasp_std           00000000209D86F0  Unknown               Unknown  Unknown
+vasp_std           0000000020A3F0BA  Unknown               Unknown  Unknown
+vasp_std           000000002113C204  Unknown               Unknown  Unknown
+vasp_std           000000002111766B  Unknown               Unknown  Unknown
+vasp_std           0000000020009632  Unknown               Unknown  Unknown
+vasp_std           00000000273F4E0F  Unknown               Unknown  Unknown
+vasp_std           000000002000951A  Unknown               Unknown  Unknown
+forrtl: error (76): Abort trap signal
+Image              PC                Routine            Line        Source             
+vasp_std           000000002732C28E  Unknown               Unknown  Unknown
+vasp_std           0000000025C6BD40  Unknown               Unknown  Unknown
+vasp_std           00000000273035A0  Unknown               Unknown  Unknown
+vasp_std           00000000273FE671  Unknown               Unknown  Unknown
+vasp_std           0000000027424B47  Unknown               Unknown  Unknown
+vasp_std           000000002742AF73  Unknown               Unknown  Unknown
+vasp_std           000000002742E87A  Unknown               Unknown  Unknown
+vasp_std           000000002742FD02  Unknown               Unknown  Unknown
+vasp_std           00000000217F0EAA  Unknown               Unknown  Unknown
+vasp_std           00000000217F0241  Unknown               Unknown  Unknown
+vasp_std           0000000024AE1FD2  Unknown               Unknown  Unknown
+vasp_std           0000000021897B0E  Unknown               Unknown  Unknown
+vasp_std           00000000212ECCAA  Unknown               Unknown  Unknown
+vasp_std           0000000021152453  Unknown               Unknown  Unknown
+vasp_std           00000000209D86F0  Unknown               Unknown  Unknown
+vasp_std           0000000020A3F0BA  Unknown               Unknown  Unknown
+vasp_std           000000002113C204  Unknown               Unknown  Unknown
+vasp_std           000000002111766B  Unknown               Unknown  Unknown
+vasp_std           0000000020009632  Unknown               Unknown  Unknown
+vasp_std           00000000273F4E0F  Unknown               Unknown  Unknown
+vasp_std           000000002000951A  Unknown               Unknown  Unknown
+forrtl: error (76): Abort trap signal
+Image              PC                Routine            Line        Source             
+vasp_std           000000002732C28E  Unknown               Unknown  Unknown
+vasp_std           0000000025C6BD40  Unknown               Unknown  Unknown
+vasp_std           00000000273035A0  Unknown               Unknown  Unknown
+vasp_std           00000000273FE671  Unknown               Unknown  Unknown
+vasp_std           0000000027424B47  Unknown               Unknown  Unknown
+vasp_std           000000002742AF73  Unknown               Unknown  Unknown
+vasp_std           000000002742E87A  Unknown               Unknown  Unknown
+vasp_std           000000002742FD02  Unknown               Unknown  Unknown
+vasp_std           00000000217F0EAA  Unknown               Unknown  Unknown
+vasp_std           00000000217F0241  Unknown               Unknown  Unknown
+vasp_std           0000000024AFE31C  Unknown               Unknown  Unknown
+vasp_std           0000000024AE1B05  Unknown               Unknown  Unknown
+vasp_std           0000000021897B0E  Unknown               Unknown  Unknown
+vasp_std           00000000212ECCAA  Unknown               Unknown  Unknown
+vasp_std           0000000021152453  Unknown               Unknown  Unknown
+vasp_std           00000000209D86F0  Unknown               Unknown  Unknown
+vasp_std           0000000020A3F0BA  Unknown               Unknown  Unknown
+vasp_std           000000002113C204  Unknown               Unknown  Unknown
+vasp_std           000000002111766B  Unknown               Unknown  Unknown
+vasp_std           0000000020009632  Unknown               Unknown  Unknown
+vasp_std           00000000273F4E0F  Unknown               Unknown  Unknown
+vasp_std           000000002000951A  Unknown               Unknown  Unknown
+srun: error: nid07574: tasks 0,4-6,15: Aborted
+srun: Terminating job step 24847977.0
+slurmstepd: error: *** STEP 24847977.0 ON nid07574 CANCELLED AT 2019-09-27T20:38:26 ***
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+vasp_std           000000002732C28E  Unknown               Unknown  Unknown
+vasp_std           0000000025C6BD40  Unknown               Unknown  Unknown
+vasp_std           000000002718B6F5  Unknown               Unknown  Unknown
+vasp_std           0000000027148DDE  Unknown               Unknown  Unknown
+vasp_std           000000002714950D  Unknown               Unknown  Unknown
+vasp_std           0000000027124DB9  Unknown               Unknown  Unknown
+vasp_std           0000000027124361  Unknown               Unknown  Unknown
+vasp_std           0000000027119AC0  Unknown               Unknown  Unknown
+vasp_std           000000002722366B  Unknown               Unknown  Unknown
+vasp_std           000000002711A871  Unknown               Unknown  Unknown
+vasp_std           000000002711B14A  Unknown               Unknown  Unknown
+vasp_std           000000002714798C  Unknown               Unknown  Unknown
+vasp_std           00000000200172CF  Unknown               Unknown  Unknown
+vasp_std           000000002005A704  Unknown               Unknown  Unknown
+vasp_std           00000000209D9F83  Unknown               Unknown  Unknown
+vasp_std           0000000020A3F0BA  Unknown               Unknown  Unknown
+vasp_std           000000002113C204  Unknown               Unknown  Unknown
+vasp_std           000000002111766B  Unknown               Unknown  Unknown
+vasp_std           0000000020009632  Unknown               Unknown  Unknown
+vasp_std           00000000273F4E0F  Unknown               Unknown  Unknown
+vasp_std           000000002000951A  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+vasp_std           000000002732C28E  Unknown               Unknown  Unknown
+vasp_std           0000000025C6BD40  Unknown               Unknown  Unknown
+vasp_std           000000002718BC0A  Unknown               Unknown  Unknown
+vasp_std           0000000027148DDE  Unknown               Unknown  Unknown
+vasp_std           000000002714950D  Unknown               Unknown  Unknown
+vasp_std           0000000027124DB9  Unknown               Unknown  Unknown
+vasp_std           0000000027124361  Unknown               Unknown  Unknown
+vasp_std           0000000027119AC0  Unknown               Unknown  Unknown
+vasp_std           000000002722366B  Unknown               Unknown  Unknown
+vasp_std           000000002711A871  Unknown               Unknown  Unknown
+vasp_std           000000002711B14A  Unknown               Unknown  Unknown
+vasp_std           000000002714798C  Unknown               Unknown  Unknown
+vasp_std           00000000200172CF  Unknown               Unknown  Unknown
+vasp_std           000000002005A704  Unknown               Unknown  Unknown
+vasp_std           00000000209D9F83  Unknown               Unknown  Unknown
+vasp_std           0000000020A3F0BA  Unknown               Unknown  Unknown
+vasp_std           000000002113C204  Unknown               Unknown  Unknown
+vasp_std           000000002111766B  Unknown               Unknown  Unknown
+vasp_std           0000000020009632  Unknown               Unknown  Unknown
+vasp_std           00000000273F4E0F  Unknown               Unknown  Unknown
+vasp_std           000000002000951A  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+vasp_std           000000002732C28E  Unknown               Unknown  Unknown
+vasp_std           0000000025C6BD40  Unknown               Unknown  Unknown
+vasp_std           000000002718BC22  Unknown               Unknown  Unknown
+vasp_std           0000000027148DDE  Unknown               Unknown  Unknown
+vasp_std           000000002714950D  Unknown               Unknown  Unknown
+vasp_std           0000000027124DB9  Unknown               Unknown  Unknown
+vasp_std           0000000027124361  Unknown               Unknown  Unknown
+vasp_std           0000000027119AC0  Unknown               Unknown  Unknown
+vasp_std           000000002722366B  Unknown               Unknown  Unknown
+vasp_std           000000002711A871  Unknown               Unknown  Unknown
+vasp_std           000000002711B14A  Unknown               Unknown  Unknown
+vasp_std           000000002714798C  Unknown               Unknown  Unknown
+vasp_std           00000000200172CF  Unknown               Unknown  Unknown
+vasp_std           000000002005A704  Unknown               Unknown  Unknown
+vasp_std           00000000209D9F83  Unknown               Unknown  Unknown
+vasp_std           0000000020A3F0BA  Unknown               Unknown  Unknown
+vasp_std           000000002113C204  Unknown               Unknown  Unknown
+vasp_std           000000002111766B  Unknown               Unknown  Unknown
+vasp_std           0000000020009632  Unknown               Unknown  Unknown
+vasp_std           00000000273F4E0F  Unknown               Unknown  Unknown
+vasp_std           000000002000951A  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+vasp_std           000000002732C28E  Unknown               Unknown  Unknown
+vasp_std           0000000025C6BD40  Unknown               Unknown  Unknown
+vasp_std           000000002718B66A  Unknown               Unknown  Unknown
+vasp_std           0000000027148DDE  Unknown               Unknown  Unknown
+vasp_std           0000000027149452  Unknown               Unknown  Unknown
+vasp_std           0000000027124DB9  Unknown               Unknown  Unknown
+vasp_std           0000000027124361  Unknown               Unknown  Unknown
+vasp_std           0000000027119AC0  Unknown               Unknown  Unknown
+vasp_std           000000002722366B  Unknown               Unknown  Unknown
+vasp_std           000000002711A871  Unknown               Unknown  Unknown
+vasp_std           000000002711B14A  Unknown               Unknown  Unknown
+vasp_std           000000002714798C  Unknown               Unknown  Unknown
+vasp_std           00000000200172CF  Unknown               Unknown  Unknown
+vasp_std           000000002005A704  Unknown               Unknown  Unknown
+vasp_std           00000000209D9F83  Unknown               Unknown  Unknown
+vasp_std           0000000020A3F0BA  Unknown               Unknown  Unknown
+vasp_std           000000002113C204  Unknown               Unknown  Unknown
+vasp_std           000000002111766B  Unknown               Unknown  Unknown
+vasp_std           0000000020009632  Unknown               Unknown  Unknown
+vasp_std           00000000273F4E0F  Unknown               Unknown  Unknown
+vasp_std           000000002000951A  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+vasp_std           000000002732C28E  Unknown               Unknown  Unknown
+vasp_std           0000000025C6BD40  Unknown               Unknown  Unknown
+vasp_std           000000002718B6A9  Unknown               Unknown  Unknown
+vasp_std           0000000027148DDE  Unknown               Unknown  Unknown
+vasp_std           000000002714950D  Unknown               Unknown  Unknown
+vasp_std           0000000027124DB9  Unknown               Unknown  Unknown
+vasp_std           0000000027124361  Unknown               Unknown  Unknown
+vasp_std           0000000027119AC0  Unknown               Unknown  Unknown
+vasp_std           000000002722366B  Unknown               Unknown  Unknown
+vasp_std           000000002711A871  Unknown               Unknown  Unknown
+vasp_std           000000002711B14A  Unknown               Unknown  Unknown
+vasp_std           000000002714798C  Unknown               Unknown  Unknown
+vasp_std           00000000200172CF  Unknown               Unknown  Unknown
+vasp_std           000000002005A704  Unknown               Unknown  Unknown
+vasp_std           00000000209D9F83  Unknown               Unknown  Unknown
+vasp_std           0000000020A3F0BA  Unknown               Unknown  Unknown
+vasp_std           000000002113C204  Unknown               Unknown  Unknown
+vasp_std           000000002111766B  Unknown               Unknown  Unknown
+vasp_std           0000000020009632  Unknown               Unknown  Unknown
+vasp_std           00000000273F4E0F  Unknown               Unknown  Unknown
+vasp_std           000000002000951A  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+vasp_std           000000002732C28E  Unknown               Unknown  Unknown
+vasp_std           0000000025C6BD40  Unknown               Unknown  Unknown
+vasp_std           0000000027187355  Unknown               Unknown  Unknown
+vasp_std           000000002718B6E5  Unknown               Unknown  Unknown
+vasp_std           0000000027148DDE  Unknown               Unknown  Unknown
+vasp_std           000000002714950D  Unknown               Unknown  Unknown
+vasp_std           0000000027124DB9  Unknown               Unknown  Unknown
+vasp_std           0000000027124361  Unknown               Unknown  Unknown
+vasp_std           0000000027119AC0  Unknown               Unknown  Unknown
+vasp_std           000000002722366B  Unknown               Unknown  Unknown
+vasp_std           000000002711A871  Unknown               Unknown  Unknown
+vasp_std           000000002711B14A  Unknown               Unknown  Unknown
+vasp_std           000000002714798C  Unknown               Unknown  Unknown
+vasp_std           00000000200172CF  Unknown               Unknown  Unknown
+vasp_std           000000002005A704  Unknown               Unknown  Unknown
+vasp_std           00000000209D9F83  Unknown               Unknown  Unknown
+vasp_std           0000000020A3F0BA  Unknown               Unknown  Unknown
+vasp_std           000000002113C204  Unknown               Unknown  Unknown
+vasp_std           000000002111766B  Unknown               Unknown  Unknown
+vasp_std           0000000020009632  Unknown               Unknown  Unknown
+vasp_std           00000000273F4E0F  Unknown               Unknown  Unknown
+vasp_std           000000002000951A  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+vasp_std           000000002732C28E  Unknown               Unknown  Unknown
+vasp_std           0000000025C6BD40  Unknown               Unknown  Unknown
+vasp_std           000000002718B70A  Unknown               Unknown  Unknown
+vasp_std           0000000027148DDE  Unknown               Unknown  Unknown
+vasp_std           0000000027149452  Unknown               Unknown  Unknown
+vasp_std           0000000027124DB9  Unknown               Unknown  Unknown
+vasp_std           0000000027124361  Unknown               Unknown  Unknown
+vasp_std           0000000027119AC0  Unknown               Unknown  Unknown
+vasp_std           000000002722366B  Unknown               Unknown  Unknown
+vasp_std           000000002711A871  Unknown               Unknown  Unknown
+vasp_std           000000002711B14A  Unknown               Unknown  Unknown
+vasp_std           000000002714798C  Unknown               Unknown  Unknown
+vasp_std           00000000200172CF  Unknown               Unknown  Unknown
+vasp_std           000000002005A704  Unknown               Unknown  Unknown
+vasp_std           00000000209D9F83  Unknown               Unknown  Unknown
+vasp_std           0000000020A3F0BA  Unknown               Unknown  Unknown
+vasp_std           000000002113C204  Unknown               Unknown  Unknown
+vasp_std           000000002111766B  Unknown               Unknown  Unknown
+vasp_std           0000000020009632  Unknown               Unknown  Unknown
+vasp_std           00000000273F4E0F  Unknown               Unknown  Unknown
+vasp_std           000000002000951A  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+vasp_std           000000002732C28E  Unknown               Unknown  Unknown
+vasp_std           0000000025C6BD40  Unknown               Unknown  Unknown
+vasp_std           000000002718B701  Unknown               Unknown  Unknown
+vasp_std           0000000027148DDE  Unknown               Unknown  Unknown
+vasp_std           0000000027149452  Unknown               Unknown  Unknown
+vasp_std           0000000027124DB9  Unknown               Unknown  Unknown
+vasp_std           0000000027124361  Unknown               Unknown  Unknown
+vasp_std           0000000027119AC0  Unknown               Unknown  Unknown
+vasp_std           000000002722366B  Unknown               Unknown  Unknown
+vasp_std           000000002711A871  Unknown               Unknown  Unknown
+vasp_std           000000002711B14A  Unknown               Unknown  Unknown
+vasp_std           000000002714798C  Unknown               Unknown  Unknown
+vasp_std           00000000200172CF  Unknown               Unknown  Unknown
+vasp_std           000000002005A704  Unknown               Unknown  Unknown
+vasp_std           00000000209D9F83  Unknown               Unknown  Unknown
+vasp_std           0000000020A3F0BA  Unknown               Unknown  Unknown
+vasp_std           000000002113C204  Unknown               Unknown  Unknown
+vasp_std           000000002111766B  Unknown               Unknown  Unknown
+vasp_std           0000000020009632  Unknown               Unknown  Unknown
+vasp_std           00000000273F4E0F  Unknown               Unknown  Unknown
+vasp_std           000000002000951A  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+vasp_std           000000002732C28E  Unknown               Unknown  Unknown
+vasp_std           0000000025C6BD40  Unknown               Unknown  Unknown
+vasp_std           000000002718BC11  Unknown               Unknown  Unknown
+vasp_std           0000000027148DDE  Unknown               Unknown  Unknown
+vasp_std           0000000027149452  Unknown               Unknown  Unknown
+vasp_std           0000000027124DB9  Unknown               Unknown  Unknown
+vasp_std           0000000027124361  Unknown               Unknown  Unknown
+vasp_std           0000000027119AC0  Unknown               Unknown  Unknown
+vasp_std           000000002722366B  Unknown               Unknown  Unknown
+vasp_std           000000002711A871  Unknown               Unknown  Unknown
+vasp_std           000000002711B14A  Unknown               Unknown  Unknown
+vasp_std           000000002714798C  Unknown               Unknown  Unknown
+vasp_std           00000000200172CF  Unknown               Unknown  Unknown
+vasp_std           000000002005A704  Unknown               Unknown  Unknown
+vasp_std           00000000209D9F83  Unknown               Unknown  Unknown
+vasp_std           0000000020A3F0BA  Unknown               Unknown  Unknown
+vasp_std           000000002113C204  Unknown               Unknown  Unknown
+vasp_std           000000002111766B  Unknown               Unknown  Unknown
+vasp_std           0000000020009632  Unknown               Unknown  Unknown
+vasp_std           00000000273F4E0F  Unknown               Unknown  Unknown
+vasp_std           000000002000951A  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+vasp_std           000000002732C28E  Unknown               Unknown  Unknown
+vasp_std           0000000025C6BD40  Unknown               Unknown  Unknown
+vasp_std           000000002718B65F  Unknown               Unknown  Unknown
+vasp_std           0000000027148DDE  Unknown               Unknown  Unknown
+vasp_std           0000000027149452  Unknown               Unknown  Unknown
+vasp_std           0000000027124DB9  Unknown               Unknown  Unknown
+vasp_std           0000000027124361  Unknown               Unknown  Unknown
+vasp_std           0000000027119AC0  Unknown               Unknown  Unknown
+vasp_std           000000002722366B  Unknown               Unknown  Unknown
+vasp_std           000000002711A871  Unknown               Unknown  Unknown
+vasp_std           000000002711B14A  Unknown               Unknown  Unknown
+vasp_std           000000002714798C  Unknown               Unknown  Unknown
+vasp_std           00000000200172CF  Unknown               Unknown  Unknown
+vasp_std           000000002005A704  Unknown               Unknown  Unknown
+vasp_std           00000000209D9F83  Unknown               Unknown  Unknown
+vasp_std           0000000020A3F0BA  Unknown               Unknown  Unknown
+vasp_std           000000002113C204  Unknown               Unknown  Unknown
+vasp_std           000000002111766B  Unknown               Unknown  Unknown
+vasp_std           0000000020009632  Unknown               Unknown  Unknown
+vasp_std           00000000273F4E0F  Unknown               Unknown  Unknown
+vasp_std           000000002000951A  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+vasp_std           000000002732C28E  Unknown               Unknown  Unknown
+vasp_std           0000000025C6BD40  Unknown               Unknown  Unknown
+vasp_std           0000000027187373  Unknown               Unknown  Unknown
+vasp_std           000000002718B6E5  Unknown               Unknown  Unknown
+vasp_std           0000000027148DDE  Unknown               Unknown  Unknown
+vasp_std           000000002714950D  Unknown               Unknown  Unknown
+vasp_std           0000000027124DB9  Unknown               Unknown  Unknown
+vasp_std           0000000027124361  Unknown               Unknown  Unknown
+vasp_std           0000000027119AC0  Unknown               Unknown  Unknown
+vasp_std           000000002722366B  Unknown               Unknown  Unknown
+vasp_std           000000002711A871  Unknown               Unknown  Unknown
+vasp_std           000000002711B14A  Unknown               Unknown  Unknown
+vasp_std           000000002714798C  Unknown               Unknown  Unknown
+vasp_std           00000000200172CF  Unknown               Unknown  Unknown
+vasp_std           000000002005A704  Unknown               Unknown  Unknown
+vasp_std           00000000209D9F83  Unknown               Unknown  Unknown
+vasp_std           0000000020A3F0BA  Unknown               Unknown  Unknown
+vasp_std           000000002113C204  Unknown               Unknown  Unknown
+vasp_std           000000002111766B  Unknown               Unknown  Unknown
+vasp_std           0000000020009632  Unknown               Unknown  Unknown
+vasp_std           00000000273F4E0F  Unknown               Unknown  Unknown
+vasp_std           000000002000951A  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+vasp_std           000000002732C28E  Unknown               Unknown  Unknown
+vasp_std           0000000025C6BD40  Unknown               Unknown  Unknown
+vasp_std           00000000271872EC  Unknown               Unknown  Unknown
+vasp_std           000000002718B6E5  Unknown               Unknown  Unknown
+vasp_std           0000000027148DDE  Unknown               Unknown  Unknown
+vasp_std           000000002714950D  Unknown               Unknown  Unknown
+vasp_std           0000000027124DB9  Unknown               Unknown  Unknown
+vasp_std           0000000027124361  Unknown               Unknown  Unknown
+vasp_std           0000000027119AC0  Unknown               Unknown  Unknown
+vasp_std           000000002722366B  Unknown               Unknown  Unknown
+vasp_std           000000002711A871  Unknown               Unknown  Unknown
+vasp_std           000000002711B14A  Unknown               Unknown  Unknown
+vasp_std           000000002714798C  Unknown               Unknown  Unknown
+vasp_std           00000000200172CF  Unknown               Unknown  Unknown
+vasp_std           000000002005A704  Unknown               Unknown  Unknown
+vasp_std           00000000209D9F83  Unknown               Unknown  Unknown
+vasp_std           0000000020A3F0BA  Unknown               Unknown  Unknown
+vasp_std           000000002113C204  Unknown               Unknown  Unknown
+vasp_std           000000002111766B  Unknown               Unknown  Unknown
+vasp_std           0000000020009632  Unknown               Unknown  Unknown
+vasp_std           00000000273F4E0F  Unknown               Unknown  Unknown
+vasp_std           000000002000951A  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+vasp_std           000000002732C28E  Unknown               Unknown  Unknown
+vasp_std           0000000025C6BD40  Unknown               Unknown  Unknown
+vasp_std           0000000027479337  Unknown               Unknown  Unknown
+vasp_std           000000002718B742  Unknown               Unknown  Unknown
+vasp_std           0000000027148DDE  Unknown               Unknown  Unknown
+vasp_std           000000002714950D  Unknown               Unknown  Unknown
+vasp_std           0000000027124DB9  Unknown               Unknown  Unknown
+vasp_std           0000000027124361  Unknown               Unknown  Unknown
+vasp_std           0000000027119AC0  Unknown               Unknown  Unknown
+vasp_std           000000002722366B  Unknown               Unknown  Unknown
+vasp_std           000000002711A871  Unknown               Unknown  Unknown
+vasp_std           000000002711B14A  Unknown               Unknown  Unknown
+vasp_std           000000002714798C  Unknown               Unknown  Unknown
+vasp_std           00000000200172CF  Unknown               Unknown  Unknown
+vasp_std           000000002005A704  Unknown               Unknown  Unknown
+vasp_std           00000000209D9F83  Unknown               Unknown  Unknown
+vasp_std           0000000020A3F0BA  Unknown               Unknown  Unknown
+vasp_std           000000002113C204  Unknown               Unknown  Unknown
+vasp_std           000000002111766B  Unknown               Unknown  Unknown
+vasp_std           0000000020009632  Unknown               Unknown  Unknown
+vasp_std           00000000273F4E0F  Unknown               Unknown  Unknown
+vasp_std           000000002000951A  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+vasp_std           000000002732C28E  Unknown               Unknown  Unknown
+vasp_std           0000000025C6BD40  Unknown               Unknown  Unknown
+vasp_std           000000002718B6AB  Unknown               Unknown  Unknown
+vasp_std           0000000027148DDE  Unknown               Unknown  Unknown
+vasp_std           0000000027149452  Unknown               Unknown  Unknown
+vasp_std           0000000027124DB9  Unknown               Unknown  Unknown
+vasp_std           0000000027124361  Unknown               Unknown  Unknown
+vasp_std           0000000027119AC0  Unknown               Unknown  Unknown
+vasp_std           000000002722366B  Unknown               Unknown  Unknown
+vasp_std           000000002711A871  Unknown               Unknown  Unknown
+vasp_std           000000002711B14A  Unknown               Unknown  Unknown
+vasp_std           000000002714798C  Unknown               Unknown  Unknown
+vasp_std           00000000200172CF  Unknown               Unknown  Unknown
+vasp_std           000000002005A704  Unknown               Unknown  Unknown
+vasp_std           00000000209D9F83  Unknown               Unknown  Unknown
+vasp_std           0000000020A3F0BA  Unknown               Unknown  Unknown
+vasp_std           000000002113C204  Unknown               Unknown  Unknown
+vasp_std           000000002111766B  Unknown               Unknown  Unknown
+vasp_std           0000000020009632  Unknown               Unknown  Unknown
+vasp_std           00000000273F4E0F  Unknown               Unknown  Unknown
+vasp_std           000000002000951A  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+vasp_std           000000002732C28E  Unknown               Unknown  Unknown
+vasp_std           0000000025C6BD40  Unknown               Unknown  Unknown
+vasp_std           0000000027192230  Unknown               Unknown  Unknown
+vasp_std           000000002718BC06  Unknown               Unknown  Unknown
+vasp_std           0000000027148DDE  Unknown               Unknown  Unknown
+vasp_std           0000000027149452  Unknown               Unknown  Unknown
+vasp_std           0000000027124DB9  Unknown               Unknown  Unknown
+vasp_std           0000000027124361  Unknown               Unknown  Unknown
+vasp_std           0000000027119AC0  Unknown               Unknown  Unknown
+vasp_std           000000002722366B  Unknown               Unknown  Unknown
+vasp_std           000000002711A871  Unknown               Unknown  Unknown
+vasp_std           000000002711B14A  Unknown               Unknown  Unknown
+vasp_std           000000002714798C  Unknown               Unknown  Unknown
+vasp_std           00000000200172CF  Unknown               Unknown  Unknown
+vasp_std           000000002005A704  Unknown               Unknown  Unknown
+vasp_std           00000000209D9F83  Unknown               Unknown  Unknown
+vasp_std           0000000020A3F0BA  Unknown               Unknown  Unknown
+vasp_std           000000002113C204  Unknown               Unknown  Unknown
+vasp_std           000000002111766B  Unknown               Unknown  Unknown
+vasp_std           0000000020009632  Unknown               Unknown  Unknown
+vasp_std           00000000273F4E0F  Unknown               Unknown  Unknown
+vasp_std           000000002000951A  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+vasp_std           000000002732C28E  Unknown               Unknown  Unknown
+vasp_std           0000000025C6BD40  Unknown               Unknown  Unknown
+vasp_std           0000000027196100  Unknown               Unknown  Unknown
+vasp_std           000000002718BC06  Unknown               Unknown  Unknown
+vasp_std           0000000027148DDE  Unknown               Unknown  Unknown
+vasp_std           0000000027149452  Unknown               Unknown  Unknown
+vasp_std           0000000027124DB9  Unknown               Unknown  Unknown
+vasp_std           0000000027124361  Unknown               Unknown  Unknown
+vasp_std           0000000027119AC0  Unknown               Unknown  Unknown
+vasp_std           000000002722366B  Unknown               Unknown  Unknown
+vasp_std           000000002711A871  Unknown               Unknown  Unknown
+vasp_std           000000002711B14A  Unknown               Unknown  Unknown
+vasp_std           000000002714798C  Unknown               Unknown  Unknown
+vasp_std           00000000200172CF  Unknown               Unknown  Unknown
+vasp_std           000000002005A704  Unknown               Unknown  Unknown
+vasp_std           00000000209D9F83  Unknown               Unknown  Unknown
+vasp_std           0000000020A3F0BA  Unknown               Unknown  Unknown
+vasp_std           000000002113C204  Unknown               Unknown  Unknown
+vasp_std           000000002111766B  Unknown               Unknown  Unknown
+vasp_std           0000000020009632  Unknown               Unknown  Unknown
+vasp_std           00000000273F4E0F  Unknown               Unknown  Unknown
+vasp_std           000000002000951A  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+vasp_std           000000002732C28E  Unknown               Unknown  Unknown
+vasp_std           0000000025C6BD40  Unknown               Unknown  Unknown
+vasp_std           000000002718B6CC  Unknown               Unknown  Unknown
+vasp_std           0000000027148DDE  Unknown               Unknown  Unknown
+vasp_std           000000002714950D  Unknown               Unknown  Unknown
+vasp_std           0000000027124DB9  Unknown               Unknown  Unknown
+vasp_std           0000000027124361  Unknown               Unknown  Unknown
+vasp_std           0000000027119AC0  Unknown               Unknown  Unknown
+vasp_std           000000002722366B  Unknown               Unknown  Unknown
+vasp_std           000000002711A871  Unknown               Unknown  Unknown
+vasp_std           000000002711B14A  Unknown               Unknown  Unknown
+vasp_std           000000002714798C  Unknown               Unknown  Unknown
+vasp_std           00000000200172CF  Unknown               Unknown  Unknown
+vasp_std           000000002005A704  Unknown               Unknown  Unknown
+vasp_std           00000000209D9F83  Unknown               Unknown  Unknown
+vasp_std           0000000020A3F0BA  Unknown               Unknown  Unknown
+vasp_std           000000002113C204  Unknown               Unknown  Unknown
+vasp_std           000000002111766B  Unknown               Unknown  Unknown
+vasp_std           0000000020009632  Unknown               Unknown  Unknown
+vasp_std           00000000273F4E0F  Unknown               Unknown  Unknown
+vasp_std           000000002000951A  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+vasp_std           000000002732C28E  Unknown               Unknown  Unknown
+vasp_std           0000000025C6BD40  Unknown               Unknown  Unknown
+vasp_std           000000002718738C  Unknown               Unknown  Unknown
+vasp_std           000000002718B6E5  Unknown               Unknown  Unknown
+vasp_std           0000000027148DDE  Unknown               Unknown  Unknown
+vasp_std           000000002714950D  Unknown               Unknown  Unknown
+vasp_std           0000000027124DB9  Unknown               Unknown  Unknown
+vasp_std           0000000027124361  Unknown               Unknown  Unknown
+vasp_std           0000000027119AC0  Unknown               Unknown  Unknown
+vasp_std           000000002722366B  Unknown               Unknown  Unknown
+vasp_std           000000002711A871  Unknown               Unknown  Unknown
+vasp_std           000000002711B14A  Unknown               Unknown  Unknown
+vasp_std           000000002714798C  Unknown               Unknown  Unknown
+vasp_std           00000000200172CF  Unknown               Unknown  Unknown
+vasp_std           000000002005A704  Unknown               Unknown  Unknown
+vasp_std           00000000209D9F83  Unknown               Unknown  Unknown
+vasp_std           0000000020A3F0BA  Unknown               Unknown  Unknown
+vasp_std           000000002113C204  Unknown               Unknown  Unknown
+vasp_std           000000002111766B  Unknown               Unknown  Unknown
+vasp_std           0000000020009632  Unknown               Unknown  Unknown
+vasp_std           00000000273F4E0F  Unknown               Unknown  Unknown
+vasp_std           000000002000951A  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+vasp_std           000000002732C28E  Unknown               Unknown  Unknown
+vasp_std           0000000025C6BD40  Unknown               Unknown  Unknown
+vasp_std           000000002718BC01  Unknown               Unknown  Unknown
+vasp_std           0000000027148DDE  Unknown               Unknown  Unknown
+vasp_std           000000002714950D  Unknown               Unknown  Unknown
+vasp_std           0000000027124DB9  Unknown               Unknown  Unknown
+vasp_std           0000000027124361  Unknown               Unknown  Unknown
+vasp_std           0000000027119AC0  Unknown               Unknown  Unknown
+vasp_std           000000002722366B  Unknown               Unknown  Unknown
+vasp_std           000000002711A871  Unknown               Unknown  Unknown
+vasp_std           000000002711B14A  Unknown               Unknown  Unknown
+vasp_std           000000002714798C  Unknown               Unknown  Unknown
+vasp_std           00000000200172CF  Unknown               Unknown  Unknown
+vasp_std           000000002005A704  Unknown               Unknown  Unknown
+vasp_std           00000000209D9F83  Unknown               Unknown  Unknown
+vasp_std           0000000020A3F0BA  Unknown               Unknown  Unknown
+vasp_std           000000002113C204  Unknown               Unknown  Unknown
+vasp_std           000000002111766B  Unknown               Unknown  Unknown
+vasp_std           0000000020009632  Unknown               Unknown  Unknown
+vasp_std           00000000273F4E0F  Unknown               Unknown  Unknown
+vasp_std           000000002000951A  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+vasp_std           000000002732C28E  Unknown               Unknown  Unknown
+vasp_std           0000000025C6BD40  Unknown               Unknown  Unknown
+vasp_std           000000002718734C  Unknown               Unknown  Unknown
+vasp_std           000000002718B6E5  Unknown               Unknown  Unknown
+vasp_std           0000000027148DDE  Unknown               Unknown  Unknown
+vasp_std           000000002714950D  Unknown               Unknown  Unknown
+vasp_std           0000000027124DB9  Unknown               Unknown  Unknown
+vasp_std           0000000027124361  Unknown               Unknown  Unknown
+vasp_std           0000000027119AC0  Unknown               Unknown  Unknown
+vasp_std           000000002722366B  Unknown               Unknown  Unknown
+vasp_std           000000002711A871  Unknown               Unknown  Unknown
+vasp_std           000000002711B14A  Unknown               Unknown  Unknown
+vasp_std           000000002714798C  Unknown               Unknown  Unknown
+vasp_std           00000000200172CF  Unknown               Unknown  Unknown
+vasp_std           000000002005A704  Unknown               Unknown  Unknown
+vasp_std           00000000209D9F83  Unknown               Unknown  Unknown
+vasp_std           0000000020A3F0BA  Unknown               Unknown  Unknown
+vasp_std           000000002113C204  Unknown               Unknown  Unknown
+vasp_std           000000002111766B  Unknown               Unknown  Unknown
+vasp_std           0000000020009632  Unknown               Unknown  Unknown
+vasp_std           00000000273F4E0F  Unknown               Unknown  Unknown
+vasp_std           000000002000951A  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+vasp_std           000000002732C28E  Unknown               Unknown  Unknown
+vasp_std           0000000025C6BD40  Unknown               Unknown  Unknown
+vasp_std           0000000027187387  Unknown               Unknown  Unknown
+vasp_std           000000002718B6E5  Unknown               Unknown  Unknown
+vasp_std           0000000027148DDE  Unknown               Unknown  Unknown
+vasp_std           000000002714950D  Unknown               Unknown  Unknown
+vasp_std           0000000027124DB9  Unknown               Unknown  Unknown
+vasp_std           0000000027124361  Unknown               Unknown  Unknown
+vasp_std           0000000027119AC0  Unknown               Unknown  Unknown
+vasp_std           000000002722366B  Unknown               Unknown  Unknown
+vasp_std           000000002711A871  Unknown               Unknown  Unknown
+vasp_std           000000002711B14A  Unknown               Unknown  Unknown
+vasp_std           000000002714798C  Unknown               Unknown  Unknown
+vasp_std           00000000200172CF  Unknown               Unknown  Unknown
+vasp_std           000000002005A704  Unknown               Unknown  Unknown
+vasp_std           00000000209D9F83  Unknown               Unknown  Unknown
+vasp_std           0000000020A3F0BA  Unknown               Unknown  Unknown
+vasp_std           000000002113C204  Unknown               Unknown  Unknown
+vasp_std           000000002111766B  Unknown               Unknown  Unknown
+vasp_std           0000000020009632  Unknown               Unknown  Unknown
+vasp_std           00000000273F4E0F  Unknown               Unknown  Unknown
+vasp_std           000000002000951A  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+vasp_std           000000002732C28E  Unknown               Unknown  Unknown
+vasp_std           0000000025C6BD40  Unknown               Unknown  Unknown
+vasp_std           000000002718BC3D  Unknown               Unknown  Unknown
+vasp_std           0000000027148DDE  Unknown               Unknown  Unknown
+vasp_std           0000000027149452  Unknown               Unknown  Unknown
+vasp_std           0000000027124DB9  Unknown               Unknown  Unknown
+vasp_std           0000000027124361  Unknown               Unknown  Unknown
+vasp_std           0000000027119AC0  Unknown               Unknown  Unknown
+vasp_std           000000002722366B  Unknown               Unknown  Unknown
+vasp_std           000000002711A871  Unknown               Unknown  Unknown
+vasp_std           000000002711B14A  Unknown               Unknown  Unknown
+vasp_std           000000002714798C  Unknown               Unknown  Unknown
+vasp_std           00000000200172CF  Unknown               Unknown  Unknown
+vasp_std           000000002005A704  Unknown               Unknown  Unknown
+vasp_std           00000000209D9F83  Unknown               Unknown  Unknown
+vasp_std           0000000020A3F0BA  Unknown               Unknown  Unknown
+vasp_std           000000002113C204  Unknown               Unknown  Unknown
+vasp_std           000000002111766B  Unknown               Unknown  Unknown
+vasp_std           0000000020009632  Unknown               Unknown  Unknown
+vasp_std           00000000273F4E0F  Unknown               Unknown  Unknown
+vasp_std           000000002000951A  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+vasp_std           000000002732C28E  Unknown               Unknown  Unknown
+vasp_std           0000000025C6BD40  Unknown               Unknown  Unknown
+vasp_std           0000000027187353  Unknown               Unknown  Unknown
+vasp_std           000000002718B6E5  Unknown               Unknown  Unknown
+vasp_std           0000000027148DDE  Unknown               Unknown  Unknown
+vasp_std           000000002714950D  Unknown               Unknown  Unknown
+vasp_std           0000000027124DB9  Unknown               Unknown  Unknown
+vasp_std           0000000027124361  Unknown               Unknown  Unknown
+vasp_std           0000000027119AC0  Unknown               Unknown  Unknown
+vasp_std           000000002722366B  Unknown               Unknown  Unknown
+vasp_std           000000002711A871  Unknown               Unknown  Unknown
+vasp_std           000000002711B14A  Unknown               Unknown  Unknown
+vasp_std           000000002714798C  Unknown               Unknown  Unknown
+vasp_std           00000000200172CF  Unknown               Unknown  Unknown
+vasp_std           000000002005A704  Unknown               Unknown  Unknown
+vasp_std           00000000209D9F83  Unknown               Unknown  Unknown
+vasp_std           0000000020A3F0BA  Unknown               Unknown  Unknown
+vasp_std           000000002113C204  Unknown               Unknown  Unknown
+vasp_std           000000002111766B  Unknown               Unknown  Unknown
+vasp_std           0000000020009632  Unknown               Unknown  Unknown
+vasp_std           00000000273F4E0F  Unknown               Unknown  Unknown
+vasp_std           000000002000951A  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+vasp_std           000000002732C28E  Unknown               Unknown  Unknown
+vasp_std           0000000025C6BD40  Unknown               Unknown  Unknown
+vasp_std           0000000027187351  Unknown               Unknown  Unknown
+vasp_std           000000002718B6E5  Unknown               Unknown  Unknown
+vasp_std           0000000027148DDE  Unknown               Unknown  Unknown
+vasp_std           000000002714950D  Unknown               Unknown  Unknown
+vasp_std           0000000027124DB9  Unknown               Unknown  Unknown
+vasp_std           0000000027124361  Unknown               Unknown  Unknown
+vasp_std           0000000027119AC0  Unknown               Unknown  Unknown
+vasp_std           000000002722366B  Unknown               Unknown  Unknown
+vasp_std           000000002711A871  Unknown               Unknown  Unknown
+vasp_std           000000002711B14A  Unknown               Unknown  Unknown
+vasp_std           000000002714798C  Unknown               Unknown  Unknown
+vasp_std           00000000200172CF  Unknown               Unknown  Unknown
+vasp_std           000000002005A704  Unknown               Unknown  Unknown
+vasp_std           00000000209D9F83  Unknown               Unknown  Unknown
+vasp_std           0000000020A3F0BA  Unknown               Unknown  Unknown
+vasp_std           000000002113C204  Unknown               Unknown  Unknown
+vasp_std           000000002111766B  Unknown               Unknown  Unknown
+vasp_std           0000000020009632  Unknown               Unknown  Unknown
+vasp_std           00000000273F4E0F  Unknown               Unknown  Unknown
+vasp_std           000000002000951A  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+vasp_std           000000002732C28E  Unknown               Unknown  Unknown
+vasp_std           0000000025C6BD40  Unknown               Unknown  Unknown
+vasp_std           0000000027187302  Unknown               Unknown  Unknown
+vasp_std           000000002718B6E5  Unknown               Unknown  Unknown
+vasp_std           0000000027148DDE  Unknown               Unknown  Unknown
+vasp_std           000000002714950D  Unknown               Unknown  Unknown
+vasp_std           0000000027124DB9  Unknown               Unknown  Unknown
+vasp_std           0000000027124361  Unknown               Unknown  Unknown
+vasp_std           0000000027119AC0  Unknown               Unknown  Unknown
+vasp_std           000000002722366B  Unknown               Unknown  Unknown
+vasp_std           000000002711A871  Unknown               Unknown  Unknown
+vasp_std           000000002711B14A  Unknown               Unknown  Unknown
+vasp_std           000000002714798C  Unknown               Unknown  Unknown
+vasp_std           00000000200172CF  Unknown               Unknown  Unknown
+vasp_std           000000002005A704  Unknown               Unknown  Unknown
+vasp_std           00000000209D9F83  Unknown               Unknown  Unknown
+vasp_std           0000000020A3F0BA  Unknown               Unknown  Unknown
+vasp_std           000000002113C204  Unknown               Unknown  Unknown
+vasp_std           000000002111766B  Unknown               Unknown  Unknown
+vasp_std           0000000020009632  Unknown               Unknown  Unknown
+vasp_std           00000000273F4E0F  Unknown               Unknown  Unknown
+vasp_std           000000002000951A  Unknown               Unknown  Unknown
+srun: error: nid07574: tasks 1-3,8-14,17-31: Exited with exit code 1
+srun: error: nid07574: tasks 7,16: Killed
+srun: Force Terminated job step 24847977.0
